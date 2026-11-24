@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "coordinate_space": "rectified_left",
+  "input_size": [
+    640,
+    360
+  ],
+  "output_size": [
+    1280,
+    800
+  ],
+  "source_points": [
+    [
+      462.04339599609375,
+      322.4873352050781
+    ],
+    [
+      168.86009216308594,
+      302.5824279785156
+    ],
+    [
+      201.9879150390625,
+      30.78038787841797
+    ],
+    [
+      473.5999450683594,
+      56.82853698730469
+    ]
+  ],
+  "projector_rect": [
+    268,
+    40,
+    1012,
+    760
+  ],
+  "stereo_calibration_sha256": "d6ce2afb72a7a099d7cbc869de96f3b7c0712675de71f0b1bfa0b4d041807104",
+  "saved_unix_time": 1795420220.3343327,
+  "model": "flat_floor_homography"
+}

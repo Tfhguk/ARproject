@@ -1,0 +1,15 @@
+{
+  "status": "user_confirmed_single_distance",
+  "reference_m": 0.65,
+  "displayed_m": 0.65,
+  "source": "User explicitly corrected earlier ruler measurements and confirmed current box distance agrees with program at 65 cm",
+  "scope": "User-observed point only; no new camera series captured and no full-field accuracy claim",
+  "square_mm": 24.5,
+  "measured_baseline_mm": 131.0,
+  "active_calibration": "stereo_calibration.npz",
+  "active_calibration_sha256": "288552deaba1edbe00c8761f67d457f8ce0e5c2bae568cba4cfdaa9a3a79e468",
+  "source_solution": "stereo_calibration\\session_20261119_140356_261995\\solution_24_5mm.npz",
+  "previous_active_backup": "../history.zip",
+  "unix_time": 1795081134.7713645,
+  "previous_active_backup_entry": "archive/20261119/calibration_backups/stereo_calibration.npz.backup_1795081134750109300"
+}

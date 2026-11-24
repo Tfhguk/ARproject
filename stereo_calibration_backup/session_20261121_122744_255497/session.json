@@ -1,0 +1,20 @@
+{
+  "status": "solved",
+  "square_mm": 24.5,
+  "board_inner_corners": [
+    9,
+    6
+  ],
+  "capture_size": [
+    1280,
+    720
+  ],
+  "camera_indices": [
+    0,
+    1
+  ],
+  "measured_baseline_mm": 131.0,
+  "hold_seconds": 0.8,
+  "still_tolerance_px": 1.5,
+  "views": 30
+}

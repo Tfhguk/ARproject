@@ -1,0 +1,83 @@
+{
+  "left_rms_px": 0.1528074249079009,
+  "right_rms_px": 0.15195916580148797,
+  "stereo_rms_px": 0.16693866619052786,
+  "rectified_y_rms_px": [
+    0.2287420630455017,
+    0.14385099709033966,
+    0.1035347655415535,
+    0.04098409414291382,
+    0.11299096047878265,
+    0.03823535516858101,
+    0.0799933522939682,
+    0.2822190523147583,
+    0.05151507258415222,
+    0.07702657580375671,
+    0.07504548877477646,
+    0.06811881810426712,
+    0.07954933494329453,
+    0.098167784512043,
+    0.11024423688650131,
+    0.1599654257297516,
+    0.0537228137254715,
+    0.03941754251718521,
+    0.14125660061836243,
+    0.08002901822328568,
+    0.09762665629386902,
+    0.06455179303884506,
+    0.06237877905368805,
+    0.08446019887924194,
+    0.08856173604726791,
+    0.06834026426076889,
+    0.1475210189819336,
+    0.12765125930309296,
+    0.0910966545343399,
+    0.06299209594726562
+  ],
+  "baseline_m": 0.1283199243783055,
+  "horizontal_rig": true,
+  "views": 30,
+  "accepted": true,
+  "image_geometry_passed": true,
+  "measured_baseline_mm": 131.0,
+  "baseline_difference_percent": -2.0458592532019093,
+  "baseline_check_passed": true,
+  "limits": {
+    "stereo_rms_px": 1.0,
+    "max_rectified_y_rms_px": 1.5,
+    "baseline_difference_percent": 5.0
+  },
+  "metric_validation": "pending_known_distance_checks",
+  "file": "stereo_calibration\\stereo_calibration.npz",
+  "square_mm": 24.5,
+  "board_inner_corners": [
+    9,
+    6
+  ],
+  "source_session": "stereo_calibration\\session_20261123_142943_615278",
+  "previous_calibration_backup": "stereo_calibration\\stereo_calibration.npz.backup_1795426657565959700",
+  "camera_settings": [
+    {
+      "index": 1,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    },
+    {
+      "index": 0,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    }
+  ]
+}

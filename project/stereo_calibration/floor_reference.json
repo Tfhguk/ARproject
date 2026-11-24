@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "coordinate_space": "rectified_left",
+  "plane_m": [
+    0.05163855991229675,
+    -0.1444819210134586,
+    -0.9881591135188932,
+    1.5025420025041483
+  ],
+  "stereo_calibration_sha256": "66d35aab733bd492169da9222cf97a6deeca591454b60f49728dd55b37529fbf",
+  "quality": {
+    "frames": 15,
+    "measured_points": 123399,
+    "plane_inlier_fraction": 0.9896,
+    "plane_rms_m": 0.006405149425570795,
+    "plane_p95_m": 0.011346554897877944
+  },
+  "saved_unix_time": 1795429024.6074593
+}

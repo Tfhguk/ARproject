@@ -1,0 +1,83 @@
+{
+  "left_rms_px": 0.10280139771272533,
+  "right_rms_px": 0.09805722345375241,
+  "stereo_rms_px": 0.11735780606840918,
+  "rectified_y_rms_px": [
+    0.05733717978000641,
+    0.08625102788209915,
+    0.08668868988752365,
+    0.22569410502910614,
+    0.09340058267116547,
+    0.11028658598661423,
+    0.1398942619562149,
+    0.05047407001256943,
+    0.05594654381275177,
+    0.23109741508960724,
+    0.08664622902870178,
+    0.10783907771110535,
+    0.0896967276930809,
+    0.052434828132390976,
+    0.08692319691181183,
+    0.06134257838129997,
+    0.1395784616470337,
+    0.07078190892934799,
+    0.08465100079774857,
+    0.08837880939245224,
+    0.03518674522638321,
+    0.05980357527732849,
+    0.09575550258159637,
+    0.09942895919084549,
+    0.040487825870513916,
+    0.050199445337057114,
+    0.08232662081718445,
+    0.06535212695598602,
+    0.10158319771289825,
+    0.15221405029296875
+  ],
+  "baseline_m": 0.1277690199432036,
+  "horizontal_rig": true,
+  "views": 30,
+  "accepted": true,
+  "image_geometry_passed": true,
+  "measured_baseline_mm": 131.0,
+  "baseline_difference_percent": -2.466396989920905,
+  "baseline_check_passed": true,
+  "limits": {
+    "stereo_rms_px": 1.0,
+    "max_rectified_y_rms_px": 1.5,
+    "baseline_difference_percent": 5.0
+  },
+  "metric_validation": "pending_known_distance_checks",
+  "file": "stereo_calibration.npz",
+  "square_mm": 24.5,
+  "board_inner_corners": [
+    9,
+    6
+  ],
+  "source_session": "stereo_calibration\\session_20261121_122744_255497",
+  "previous_calibration_backup": "stereo_calibration.npz.backup_1795246499157410300",
+  "camera_settings": [
+    {
+      "index": 0,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    },
+    {
+      "index": 1,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    }
+  ]
+}

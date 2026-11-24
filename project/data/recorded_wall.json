@@ -1,0 +1,28 @@
+{
+  "calibration_sha256": "288552deaba1edbe00c8761f67d457f8ce0e5c2bae568cba4cfdaa9a3a79e468",
+  "camera_settings": [
+    {
+      "index": 0,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    },
+    {
+      "index": 1,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    }
+  ],
+  "scope": "Stationary chair/wall test, no ground-truth depth or physical accuracy claim"
+}

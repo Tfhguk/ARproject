@@ -1,0 +1,104 @@
+{
+  "calibrated": false,
+  "capture_size": [
+    1280,
+    720
+  ],
+  "calibration_sha256": null,
+  "distance_checks": [],
+  "camera_settings": [
+    {
+      "index": 0,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    },
+    {
+      "index": 1,
+      "size": [
+        1280,
+        720
+      ],
+      "fourcc": "MJPG",
+      "reported_fps": 30.00003000003,
+      "focus": 0.0,
+      "autofocus_disable_requested": true
+    }
+  ],
+  "periods": [
+    {
+      "size": [
+        640,
+        360
+      ],
+      "method": "sgbm",
+      "calibrated": false,
+      "min_disparity": 0,
+      "num_disparities": 64,
+      "requested_depth_range_m": [
+        0.3,
+        4
+      ],
+      "effective_search_near_m": null,
+      "left_right_check": true,
+      "padded_search": true,
+      "appearance": "uncalibrated_disparity",
+      "fill": "surface",
+      "update_mode": "changes",
+      "check_interval_s": 0.5,
+      "update_interval_s": 1.0,
+      "change_threshold_m": 0.02,
+      "change_area_fraction": 0.003,
+      "work_area": null,
+      "work_area_fraction": 1.0,
+      "work_area_source_points": null,
+      "work_area_input_size": null,
+      "projector_rect": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "height_mode": false,
+      "height_max_m": null,
+      "height_gamma": null,
+      "above_height_range": null,
+      "floor_plane_m": null,
+      "projector_mapping": "image_fit",
+      "projector_quality": null,
+      "color_depth_range_m": [
+        0.3,
+        4
+      ],
+      "frames": 686,
+      "elapsed_s": 345.65041740000015,
+      "output_fps": 1.9846641735893928,
+      "depth_checks": 686,
+      "depth_checks_per_second": 1.9846641735893928,
+      "publications": 686,
+      "published_capture_time": 9285.9921243,
+      "published_age_s": 0.4225712999996176,
+      "statistics_samples": 686,
+      "compute_ms": 145.68807609329727,
+      "appearance_ms": 14.139021428560046,
+      "display_fraction": 0.0,
+      "interpolated_fraction": 0.0,
+      "held_fraction": 0.0,
+      "completed_fraction": 0.0,
+      "receipt_skew_ms": 13.842049416931497,
+      "receipt_to_check_ms": 220.49220670555968,
+      "receipt_to_submit_ms": 220.49220670555968,
+      "valid_fraction": 0.09016776502267573,
+      "camera_fps": [
+        30.092393792445698,
+        29.923096632997286
+      ]
+    }
+  ],
+  "notes": "Output FPS counts publications, depth_checks counts stereo probes. In changes mode the projector holds a static map and updates at a limited rate during changes and motion. Motion does not need to stop; published depth is the latest measured frame without temporal trails. A saved work area restricts changes, display reconstruction and exports to the projector footprint. Its homography aligns a flat floor, not elevated 3D relief. Depth checks still run periodically; expensive presentation runs only on publication. Timestamps are software receipt times, not hardware exposure synchronization. Long interactive periods retain the most recent 900 metric samples; depth_checks counts all processed pairs. Uncalibrated disparity cannot establish depth accuracy or compare depth quality. Presentation smoothing and hole interpolation affect only display images/display_depth_m.npy. Small enclosed gaps may briefly retain earlier depth with a static camera image; held pixels remain inferred and their lifetime is not refreshed by holding. Surface completion estimates unobserved regions for presentation only; completed_mask marks these points. It is not a full-field accuracy claim. Live Z, reference checks and depth_m.npy always use original stereo measurements."
+}
